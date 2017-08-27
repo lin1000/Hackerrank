@@ -46,6 +46,15 @@
                 <configuration>
                     <mainClass>demo.lin1000.hackerrank.JavaIfElse.Solution</mainClass>
                 </configuration>
+            </execution>
+            <execution>
+                <id>0003</id>
+                <goals>
+                    <goal>java</goal>
+                </goals>
+                <configuration>
+                    <mainClass>demo.lin1000.hackerrank.StdinStdout2.Solution</mainClass>
+                </configuration>
             </execution>            
         </executions>
       </plugin>
