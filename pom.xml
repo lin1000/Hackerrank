@@ -88,7 +88,25 @@
                             </systemProperty>
                         </systemProperties >
                     </configuration>
-                </execution>        
+                </execution>
+                <execution>
+                    <id>0007</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.hackerrank.Java1DArrayPart2.Solution</mainClass>
+                    </configuration>
+                </execution>       
+                <execution>
+                    <id>0008</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.java8.MyIntStream</mainClass>
+                    </configuration>
+                </execution>                
             </executions>
         </plugin>
       </plugins>
