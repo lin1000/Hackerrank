@@ -18,6 +18,7 @@ public class MyIntStream{
 
 
         //IntStream.range
+        //IntTream.range return value is a IntStream
         List<Integer> intList = IntStream.range(0,1000).map(x->x).boxed().collect(Collectors.toList());
         intList.forEach(System.out::print);
         System.out.println("");
@@ -89,7 +90,7 @@ public class MyIntStream{
         String result = IntStream.range(0,10).boxed().map(String::valueOf).collect(Collectors.joining(",","{","}"));
         System.out.println("result="+result);           
 
-
+        
         //ordering
         for(Entry<Integer,List<Integer>> entry: groupingList.entrySet()){
             Integer key = entry.getKey();
@@ -102,6 +103,9 @@ public class MyIntStream{
             System.out.println(valueResult);
 
         }
+
+        //Java.lang.IllegalStateException: stream has already been operated upon or closed
+        //Same stream operated twice will haave the error
 
     }
 }

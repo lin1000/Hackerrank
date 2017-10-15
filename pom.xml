@@ -6,8 +6,8 @@
       <version>1.0</version>
       <packaging>jar</packaging>
      
-      <name>OpenGov : Text Analysis on Adureyt</name>
-      <url>https://github.com/lin1000/Hackerrand</url>
+      <name>Hackerrank</name>
+      <url>https://github.com/lin1000/Hackerrank</url>
 
     <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -106,7 +106,37 @@
                     <configuration>
                         <mainClass>demo.lin1000.java8.MyIntStream</mainClass>
                     </configuration>
-                </execution>                
+                </execution>
+                <execution>
+                    <id>0009</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.java8.MyParallel</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>                 
+                <execution>
+                    <id>0010</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.datatstructure.MyHashMap</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>                    
+                <execution>
+                    <id>0011</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.datatstructure.UniqueCharacter</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>           
             </executions>
         </plugin>
       </plugins>
