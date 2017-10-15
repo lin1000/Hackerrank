@@ -1,10 +1,12 @@
 # Hackerrank
 Fun Programming Challenges
 
-- [x] https://www.hackerrank.com/challenges/java-stdin-and-stdout-1
-- [x] https://www.hackerrank.com/challenges/java-if-else?h_r=next-challenge&h_v=zen
-- [x] https://www.hackerrank.com/challenges/java-stdin-stdout/problem
-- [x] 0006 (https://www.hackerrank.com/challenges/java-lambda-expressions/problem)
+- [x] 0001 https://www.hackerrank.com/challenges/java-stdin-and-stdout-1
+- [x] 0002 https://www.hackerrank.com/challenges/java-if-else?h_r=next-challenge&h_v=zen
+- [x] 0003 https://www.hackerrank.com/challenges/java-stdin-stdout/problem
+- [x] 0004 BufferedReader.lines for stream
+- [x] 0005 (https://www.hackerrank.com/challenges/java-lambda-expressions/problem)
+- [x] 0006 Find Number
 - [x] 0007 Java 1D Array Part 2 (https://www.hackerrank.com/challenges/java-1d-array)
 - [x] 0008 (java8 stream) IntStream and Collectors
 - [x] 0009 (java8 stream parallel) MyParallel
@@ -16,6 +18,9 @@ Fun Programming Challenges
 repeated characters. For example, the string aabcccccaaa would become
 a2blc5a3. If the "compressed" string would not become smaller than the original
 string, your method should return the original string.
+- [ ] 0015 (data structure) NxN Matrix Rotatation clockwise
+- [ ] 0016 (data structure) Write an algorithm such that if an element in an MxN matrix is 0, its entire row and
+column are set to 0.
 
 ## JAVA8 Features & Dive
 
