@@ -167,6 +167,16 @@
                         <cleanupDaemonThreads>false</cleanupDaemonThreads>
                     </configuration>
                 </execution>
+                <execution>
+                    <id>0015</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.datatstructure.LinkedList</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>                
             </executions>
         </plugin>
       </plugins>

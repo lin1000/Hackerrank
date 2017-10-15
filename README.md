@@ -18,9 +18,9 @@ Fun Programming Challenges
 repeated characters. For example, the string aabcccccaaa would become
 a2blc5a3. If the "compressed" string would not become smaller than the original
 string, your method should return the original string.
-- [ ] 0015 (data structure) NxN Matrix Rotatation clockwise
-- [ ] 0016 (data structure) Write an algorithm such that if an element in an MxN matrix is 0, its entire row and
-column are set to 0.
+- [-] 0015 (data strtucture) implement a double liked LinkedList array
+- [ ] 0016 (data structure) NxN Matrix Rotatation clockwise
+- [ ] 0017 (data structure) Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 
 ## JAVA8 Features & Dive
 
