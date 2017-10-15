@@ -136,7 +136,17 @@
                         <mainClass>demo.lin1000.datatstructure.UniqueCharacter</mainClass>
                         <cleanupDaemonThreads>false</cleanupDaemonThreads>
                     </configuration>
-                </execution>           
+                </execution>      
+                <execution>
+                    <id>0012</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.datatstructure.Permutation</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>                           
             </executions>
         </plugin>
       </plugins>

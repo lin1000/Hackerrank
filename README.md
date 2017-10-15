@@ -10,6 +10,7 @@ Fun Programming Challenges
 - [x] 0009 (java8 stream parallel) MyParallel
 - [x] 0010 (data structure) dive into hashmap
 - [x] 0011 (data structure) UniqueCharacter
+- [x] 0012 (data structure) Given two strings, write a method to decide if one is a permutation of the other.
 
 ## JAVA8 Features & Dive
 
