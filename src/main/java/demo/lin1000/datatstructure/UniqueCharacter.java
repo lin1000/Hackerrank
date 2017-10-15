@@ -50,14 +50,41 @@ public class UniqueCharacter{
                 Integer ret = opInt.orElse(Integer.valueOf(1));
                 
                 return ret==1? true: false;
-            }    
+    }    
+    
+
+    /*/
+    Time Complexity : O(N), depends on the input length of the string
+    Space Complexity : O(1) , only used a 32 bit , which is super efficient space !
+    //*/       
+    public boolean solve3(String input){
+
+        int check = 0;
+
+        for(int i=0; i< input.length(); i++){
+            char c =  input.charAt(i);
+            // range from 0(a) to 25 (z)
+            char posToCheck = (char)(c - 'a');
+            
+            System.out.println(Integer.toBinaryString(1 << posToCheck));
+            if( (check & (1 << posToCheck)) > 0){
+                return false;
+            }
+            check |= 1 << posToCheck;
+            System.out.println(Integer.toBinaryString(check));
+
+        }
+        return true;
+
+    }
 
     public static void main(String[] args){
         UniqueCharacter t = new UniqueCharacter();
         
-        String test = "asdflkj\u00ea";
+        String test = "zabcdefghijklmnopqrstuvwxyz";
         System.out.println("t.solve(\""+test+"\")=" +t.solve(test));
         System.out.println("t.solve2(\""+test+"\")=" +t.solve2(test));
+        System.out.println("t.solve3(\""+test+"\")=" +t.solve3(test));
 
         /*
         solve better than solve2 
