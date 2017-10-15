@@ -12,6 +12,10 @@ Fun Programming Challenges
 - [x] 0011 (data structure) UniqueCharacter
 - [x] 0012 (data structure) Given two strings, write a method to decide if one is a permutation of the 
 - [x] 0013 (data structure) ReplaceSpce, such as generate a urlencoded string from user typed url string
+- [x] 0014 (data structure) Implement a method to perform basic string compression using the counts of
+repeated characters. For example, the string aabcccccaaa would become
+a2blc5a3. If the "compressed" string would not become smaller than the original
+string, your method should return the original string.
 
 ## JAVA8 Features & Dive
 

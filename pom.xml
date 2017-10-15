@@ -157,6 +157,16 @@
                         <cleanupDaemonThreads>false</cleanupDaemonThreads>
                     </configuration>
                 </execution>                                           
+                <execution>
+                    <id>0014</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.datatstructure.StringCompression</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>
             </executions>
         </plugin>
       </plugins>
