@@ -147,6 +147,16 @@
                         <cleanupDaemonThreads>false</cleanupDaemonThreads>
                     </configuration>
                 </execution>                           
+                <execution>
+                    <id>0013</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.datatstructure.ReplaceSpace</mainClass>
+                        <cleanupDaemonThreads>false</cleanupDaemonThreads>
+                    </configuration>
+                </execution>                                           
             </executions>
         </plugin>
       </plugins>
