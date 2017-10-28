@@ -19,8 +19,11 @@ repeated characters. For example, the string aabcccccaaa would become
 a2blc5a3. If the "compressed" string would not become smaller than the original
 string, your method should return the original string.
 - [-] 0015 (data strtucture) implement a double liked LinkedList array
-- [ ] 0016 (data structure) NxN Matrix Rotatation clockwise
-- [ ] 0017 (data structure) Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
+- [x] 0016 (design pattern) classic template method by inheritance 
+- [x] 0017 (design pattern) template method by lambda (more flexible on delegation - not limit to inheritance hierarchy only )
+
+- [ ] 00xx (data structure) NxN Matrix Rotatation clockwise
+- [ ] 00xx (data structure) Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 
 ## JAVA8 Features & Dive
 
