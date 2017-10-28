@@ -176,7 +176,25 @@
                         <mainClass>demo.lin1000.datatstructure.LinkedList</mainClass>
                         <cleanupDaemonThreads>false</cleanupDaemonThreads>
                     </configuration>
-                </execution>                
+                </execution>       
+                <execution>
+                    <id>0016</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.java8.labmda.templatemethod.EmployeeLoanApplication</mainClass>
+                    </configuration>
+                </execution>             
+                <execution>
+                    <id>0017</id>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    <configuration>
+                        <mainClass>demo.lin1000.java8.labmda.templatemethod.CompanyLoanApplicationLambda</mainClass>
+                    </configuration>
+                </execution>                            
             </executions>
         </plugin>
       </plugins>
